@@ -1,0 +1,753 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
+\use_bibtopic true
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Quaternion Space-times-time Invariance as Gravity
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Essay written for the Gravity Research Foundation 2015 Awards for Essays
+ on Gravitation
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+D.
+ B.
+ Sweetser
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+39 Drummer Road, Acton, MA 01720
+\end_layout
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Address
+sweetser@alum.mit.edu
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+The square of a quaternion luckily has the Lorentz invariant interval of
+ special relativity as its first term.
+ The other three space-times-time terms are commonly ignored.
+ Ways to vary a quaternion with a continuous function by leave the intraval
+ in the square invariant are discussed.
+ One method uses exponentials, leading to the hyperbolic functions found
+ useful in special relativity.
+ Using the same approach to keep the space-times-time invariant leads to
+ a dynamic interval term.
+ By preserving the space-times-time terms using an exponential function
+ and the geometric source mass, an interval term is found that is similar
+ but experimentally distinct from the Schwarzschild metric applied to space-time
+ 4-vectors.
+ Space-times-time invariance is not a field theory, so gravitons are not
+ necessary and quantization is moot.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+General relativity, Einstein's elegant theory of gravity, is a field theory
+ like the three other fundamental forces of Nature: electromagnetism, the
+ weak force, and the strong force.
+ The cause of gravity is any form of energy or momentum.
+ The field equations dictate the motion of particles with energy, thus applying
+ to all particles, even light.
+\end_layout
+
+\begin_layout Standard
+Special relativity is not a special case of general relativity, despite
+ the name.
+ Special relativity is about an invariant quantity in Nature that all inertial
+ observers agree upon: the interval, a difference of squares in measurements
+ of space and time.
+ Special relativity applies to all measurements, even those involving the
+ fundamental forces.
+ The product of a measurement in space and one in time, referred to hereafter
+ as space-times-time, will change in known ways for different inertial observers.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+How space-times-time changes under a Lorentz transformation is somewhat
+ complicated.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This essay explores the opposite situation: what if two observers find their
+ space-times-time was an invariant, but their intervals were different?
+ It is suggestive that a defining characteristic of general relativity is
+ that intervals vary at different places in a gravitational field.
+\end_layout
+
+\begin_layout Standard
+The invariant interval of special relativity in flat spacetime is generated
+ by contracting a 4-vector using the Minkowski metric.
+ With such a simple system, other products are omitted, namely, any with
+ the space-times-time form, 
+\begin_inset Formula $dt\,dx_{i}$
+\end_inset
+
+.
+ Such terms could appear if one used a metric with non-diagonal components
+ which are unnecessary for flat spacetime.
+\end_layout
+
+\begin_layout Standard
+There is a type of math that naturally embraces space-times-time terms.
+ All are familiar with real numbers, a mathematical field that allows for
+ addition, subtraction, multiplication, and division.
+ The complex numbers are also a mathematical field, but now one has two
+ degrees of freedom, often represented by a pair of numbers.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Deeper insights can sometimes be found working on a complex manifold, 
+\begin_inset Formula $\mathbb{C}{}^{1}$
+\end_inset
+
+, using a complex number and its conjugate instead of 
+\begin_inset Formula $\mathbb{R}^{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+ Complex numbers are no longer a totally ordered set.
+ The next sort of numbers has four-part harmonies, with a real bass and
+ three imaginary tenors.
+ Known as the quaternions, they do not commute, so live with the label of
+ a division algebra.
+ Quaternions still retain addition, subtraction, multiplication, and division.
+ The rules are similar for the complex numbers, with the imaginary 
+\begin_inset Formula $i$
+\end_inset
+
+ replaced by an imaginary 3-vector and the inclusion of the anti-symmetric
+ cross product.
+ Quaternions play a minor technical role as the best way to do rotations
+ in three dimensions.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "salamin1979"
+
+\end_inset
+
+ A unit quaternion 
+\emph on
+SU(2)
+\emph default
+ sits in the center of the standard model gauge symmetries.
+ Despite that central role, quaternions have historically been vilified
+ to a comic degree.
+\end_layout
+
+\begin_layout Quotation
+"Quaternions came from Hamilton after his really good work had been done;
+ and though beautifully ingenious, have been an unmixed evil to those who
+ have touched them in any way, including Maxwell." 
+\end_layout
+
+\begin_layout Right Address
+Lord Kelvin
+\begin_inset CommandInset citation
+LatexCommand citep
+after "See vol. II, p. 1070."
+key "lordkelvin1910"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There are published claims that one cannot write the Maxwell equations or
+ represent the Lorentz group using real-valued quaternions.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "conway1911,girard1984,lambek1995,silberstein1912"
+
+\end_inset
+
+ Neither happens to be true.
+ See the appendix for details if interested.
+ 
+\end_layout
+
+\begin_layout Standard
+The square of a space-time measurement represented with quaternions is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+(dt,dx_{1},dx_{2},dx_{3})^{2}=(dt^{2}-dx_{1}^{2}-dx_{2}^{2}-dx_{3}^{2},2dt\,dx_{1},2dt\,dx_{2},2dt\,dx_{3}).\label{quaternion squared}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The first term of the square is the Lorentz invariant interval.
+ It is followed by the three space-times-time terms.
+ There are a few advantages to having these three extra bits of information.
+ Say two inertial observers Alice and Bob saw a collection of events.
+ The first term of the square of the quaternion would be the same.
+ An analysis of the space-times-time value would let us know how Alice was
+ moving relative to Bob.
+ If they also calculate the product of two different events in both orders,
+ then we would know something about the angle between the events and the
+ observer.
+ If 
+\emph on
+
+\begin_inset Formula $ab=ba$
+\end_inset
+
+
+\emph default
+, then they are in a straight line.
+ If for the three space-times-time terms,
+\emph on
+ 
+\begin_inset Formula $ab=-ba$
+\end_inset
+
+
+\emph default
+ , they are at a right angle.
+ Anything between those extremes is in between.
+\end_layout
+
+\begin_layout Standard
+What happens in curved space-time? With the standard machinery of differential
+ geometry, a simple subtraction is not allowed.
+ Instead, one has to parallel transport one event to another along a geodesic
+ using a known connection.
+ Then the subtraction can be done properly.
+\end_layout
+
+\begin_layout Standard
+Quaternions don't have a metric.
+ Without a metric, there is no connection.
+ Maybe quaternions are an 
+\begin_inset Quotes eld
+\end_inset
+
+unmixed evil.
+\begin_inset Quotes erd
+\end_inset
+
+ Let's explore anyway.
+\end_layout
+
+\begin_layout Standard
+Construct a quaternion out of space-time functions that can be varied, yet
+ the first term of the square is invariant as required by special relativity:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+(f,g_{1},g_{2},g_{3})^{2}=(f^{2}-g_{1}^{2}-g_{2}^{2}-g_{3}^{2},2fg_{1},2fg_{2},2fg_{3}).\label{square}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If the function 
+\begin_inset Formula $f$
+\end_inset
+
+ was exactly the same as each normalized 
+\begin_inset Formula $g_{i}$
+\end_inset
+
+, then the first term in the square, the interval, would always be zero.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+The normalization depends on the count of non-zero g factors, 
+\begin_inset Formula $\frac{1}{\sqrt{3}}$
+\end_inset
+
+ if none are zero.
+\end_layout
+
+\end_inset
+
+ This is an important case: it is light.
+ Changes in time are exactly equal to the magnitude of changes in space.
+\end_layout
+
+\begin_layout Standard
+With zero covered, find a way so the first term in the square is equal to
+ one for all inertial observers.
+ The square of 
+\begin_inset Formula $f$
+\end_inset
+
+ must cancel out the square of 
+\begin_inset Formula $g$
+\end_inset
+
+, but leave unity behind.
+ Work with a third function 
+\begin_inset Formula $h$
+\end_inset
+
+ and its inverse:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+f & =\frac{1}{2}\left(h+\frac{1}{h}\right)\nonumber \\
+g_{1,2,3} & =\frac{1}{2\sqrt{3}}\left(h-\frac{1}{h}\right)\nonumber \\
+(f,g_{1},g_{2},g_{3})^{2} & =\left(1,\frac{1}{2\sqrt{3}}\left(h^{2}-\frac{1}{h^{2}}\right),\frac{1}{2\sqrt{3}}\left(h^{2}-\frac{1}{h^{2}}\right),\frac{1}{2\sqrt{3}}\left(h^{2}-\frac{1}{h^{2}}\right)\right).\label{make unity}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So long as the function 
+\emph on
+h
+\emph default
+ has an inverse, this will always work.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Adjusting the normalization factor as needed.
+\end_layout
+
+\end_inset
+
+ Exponential functions play an important role in theoretical physics.
+ If the exponent is zero, unity is the result and nothing is changed.
+ For tiny exponents, the result may contain a simple harmonic oscillator
+ which are ubiquitous in Nature.
+ For the case in hand, the function 
+\begin_inset Formula $f$
+\end_inset
+
+ is a hyperbolic cosine which is the stretch factor gamma of special relativity.
+ The function 
+\begin_inset Formula $g$
+\end_inset
+
+ is the hyperbolic sine, the gamma beta factor that also appears in special
+ relativity.
+\end_layout
+
+\begin_layout Standard
+Repeat these two simple math exercises for space-times-time.
+ Find a general way to make the square of a measurement have either three
+ zeroes or three ones - times the factor of two that is from the sum of
+ two identical terms.
+ Generating three zero space-times-time factors is easy: take the norm of
+ any quaternion.
+ Some effort has gone into quantum mechanics that uses quaternions in place
+ of complex numbers.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "adler1995"
+
+\end_inset
+
+ That topic is beyond the scope of this short essay.
+ The general way to generate three factors of two is also not difficult:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+f & =\frac{1}{h}\nonumber \\
+g_{1,2,3} & =h\nonumber \\
+(f,g_{1},g_{2},g_{3})^{2} & =\left(\frac{1}{h^{2}}-3h^{2},2,2,2\right).\label{make 222}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An exponential function could be plugged in as before.
+ This moves from a pure math exercise to one with physics content if the
+ exponential is chosen to be related to gravity by using the geometric length
+ of a mass
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+The coordinate-independent formulation is that the product of time and the
+ norm of space is invariant in a gravitational field.
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+(e^{-z}\,dt,e^{z}\,dR_{i}/c)^{2} & =(e^{-2z}\,dt^{2}-e^{2z}\,dR_{i}^{2}/c^{2},2\,dt\,dR_{i}/c)\nonumber \\
+ & =\left(e^{-\frac{2GM}{c^{2}R}}dt^{2}-e^{\frac{2GM}{c^{2}R}}dR_{i}^{2}/c^{2},2\,dt\,dR_{i}/c\right)\nonumber \\
+\mathrm{if} & \quad z=\frac{GM}{c^{2}R},\quad i=1,2,3.\label{exponential metric}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let's pause to discuss this expression.
+ No metric was used to get here.
+ No field equation was solved.
+ Instead a new invariance of Nature has been proposed as it applies to products
+ of quaternions in a weak gravitational system characterized by one length.
+ Algebraically, the first term is the same as the Rosen exponential metric
+ applied to an event 4-vector.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "rosen1973"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Experimental tests of weak gravity fields use the first three terms of the
+ Taylor series expansion in 
+\begin_inset Formula $z$
+\end_inset
+
+ for the change in time, and the first two for changes in space.
+ Those terms are identical for the space-times-time invariant expression
+ and the Schwarzschild metric in Cartesian coordinates.
+ There is no way to distinguish these two at what is called first-order
+ Parameterized Post-Newtonian (PPN) accuracy.
+ At second order, the new invariance proposal predicts 6% more bending of
+ light around a gravitational source.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "epstein1980"
+
+\end_inset
+
+ Since the effect is smaller than a micro-arcsecond, that is beyond our
+ reach today.
+\end_layout
+
+\begin_layout Standard
+Massless light is bent by gravity.
+ That can be accounted for in general relativity because the coupling is
+ to energy density which light has.
+ With the space-times-time invariance, there is no coupling term nor any
+ field equations.
+ The same thing happens in special relativity: there is no coupling, nor
+ field equations.
+ The space-times-time invariance may be the correct variation on the invariant
+ interval of special relativity, thus being the simplest pure geometry approach
+ to gravity, but not too simple.
+\end_layout
+
+\begin_layout Standard
+With no graviton to quantize, there is no issue of quantizing a gravitational
+ field.
+ What about energy loss by a binary pulsar? The Rosen metric allows for
+ a dipole mode of gravity wave emission, so is ruled out by the data which
+ requires a lower rate of gravity wave emissions.
+\begin_inset CommandInset citation
+LatexCommand citep
+after "See section 12.3(b)."
+key "will1993"
+
+\end_inset
+
+ In the space-times-time invariant proposal, the exponential function and
+ its inverse applied to gravity above was static.
+ Make it dynamic by including a time factor in a way consistent with how
+ we see the metric change in time for a binary pulsar.
+\end_layout
+
+\begin_layout Standard
+Is a graviton required to carry away the energy? The system in question
+ is an isolated binary pulsar that conserves both energy and momentum.
+ It does not have a dipole moment like a magnet, but does have a quadruple
+ moment, like a wobbling water balloon.
+ The energy could be carried away by an electromagnetic field that had a
+ quadruple as its lowest moment.
+ While unusual, it is possible.
+\end_layout
+
+\begin_layout Standard
+Does gravity as a space-times-time invariance play nicely with the three
+ other fundamental forces of physics? Given the stellar record of special
+ relativity, there is reason to hope.
+ 
+\end_layout
+
+\begin_layout Standard
+\start_of_appendix
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+numberwithin{equation}{section}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Appendix: Maxwell equations and the Lorentz group using real-valued quaternions
+\end_layout
+
+\begin_layout Standard
+The homogeneous Maxwell equations are vector identities.
+ They hold when written using quaternions.
+ The Lagrange density used to derive the Maxwell source equations is the
+ difference of the squared magnetic and electric fields
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jackson1999"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\mathcal{L}=\frac{1}{2}\left(B^{2}-E^{2}\right).\label{eq:EM Lagrangian}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The difference of two squares is the product of their sums and difference.
+ The simplest product of a quaternion differential operator and potential
+ generates the difference of the magnetic and electric fields:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\nabla A=\left(\frac{\partial}{\partial t},\vec{\nabla}\right)\left(\phi,\vec{A}\right)=\left(\frac{\partial\phi}{\partial t}-\nabla\cdot A,\frac{\partial\vec{A}}{\partial t}+\vec{\nabla}\phi+\vec{\nabla}\times\vec{A}\right)=\left(g,\vec{B}-\vec{E}\right).\label{eq:B-E}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This also has a gauge field 
+\begin_inset Formula $g$
+\end_inset
+
+ which can easily be eliminated by subtracting the conjugate of this product.
+ The sum of these two fields - times a factor of minus one - is formed by
+ reversing the order of the differential with the potential:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{1}{8}\left(\nabla A-\left(\nabla A\right){}^{*}\right)\left(A\nabla-\left(A\nabla\right){}^{*}\right)=\frac{1}{2}\left(B^{2}-E^{2},2\vec{E}\times\vec{B}\right).\label{eq:B2-E2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The first term drops into the Euler-Lagrange equations to generate the Gauss
+ and Ampere laws of electromagnetism.
+ As a bonus, there is the Poynting vector, the directional energy flux density
+ of an electromagnetic field.
+\end_layout
+
+\begin_layout Standard
+Representing the compact Lie group needed to do spatial rotations is itself
+ compact when using quaternions:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\textrm{R} & = & \left(0,x_{1},x_{2},x_{3}\right)\nonumber \\
+U & = & \left(\cos(\theta),\sin(\theta),0,0\right)\nonumber \\
+R\rightarrow R' & = & URU^{*}\nonumber \\
+ & \,= & \left(0,x_{1},x_{2}\cos(2\theta)-x_{3}\sin(2\theta),x_{3}\cos(2\theta)+x_{2}\sin(2\theta)\right).\label{eq:rotation}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If one tries to simply change from the cosine and sine function to the hyperboli
+c cosine and sine function, a member of the Lorentz group is not generated.
+ This should not be a surprise since that group is not compact, a non-trivial
+ change.
+ Other terms are required to pull off the trick:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+B & = & (t,x_{1},x_{2},x_{3})\nonumber \\
+H & = & \left(\cosh(\alpha),\sinh(\alpha),0,0\right)\nonumber \\
+B\rightarrow B' & = & HBH^{*}+((HHB)^{*}-(H^{*}H^{*}B)^{*})/2\nonumber \\
+ & = & (\cosh(2\alpha)\,t-\sinh(2\alpha)\,x_{1},\cosh(2\alpha)\,x_{1}-\sinh(2\alpha)\,t,x_{2},x_{3})\nonumber \\
+ & = & (\gamma t-\gamma\beta x_{1},\gamma x_{1}-\gamma\beta t,x_{2},x_{3}).\label{eq:boost}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quaternions provide another way to write these expressions.
+ Nothing new is learned, other than to be skeptical of claims about the
+ limitations of quaternions.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "references"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

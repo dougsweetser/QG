@@ -1,0 +1,15 @@
+site_name: Measurement 101
+site_author: sweetser@alum.mit.edu
+copyright: 2015, Doug Sweetser, all rights reserved.
+
+theme_dir: spacelab-mod
+
+dev_addr: 127.0.0.1:8001
+
+pages:
+- [index.md, Measure Space-time]
+- [special_relativity/special_relativity.md, Measure while walking]
+- [quaternion_gravity/quaternion_gravity.md, Measure while up or down]
+- [all/measure_it_all.md, Measure it all]
+- [essay/space-times-time-invariance.md, Essay]
+- [LICENSE.md, about, License]

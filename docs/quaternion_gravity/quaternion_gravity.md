@@ -2,7 +2,7 @@
 
 Looking down or up changes measurements of firecrackers.
 
-![quaternion gravity](../img/qg.png)
+![quaternion gravity](../img/sr_and_qg.qg.600.png)
 
 If one observer is at a different height in a gravity field to another observer, then quaternion gravity comes into play.
 

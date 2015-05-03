@@ -2,7 +2,7 @@
 
 Firecrackers Explode!
 
-![](img/measure_events_600.png)
+![](img/sr_and_qg.measure.600.png)
 
 There is a difference in time (dt).
 

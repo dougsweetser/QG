@@ -2,7 +2,7 @@
 
 Walking changes how one measures firecrackers.
 
-![special relativity](../img/sr_600.png)
+![special relativity](../img/sr_and_qg.sr.600.png)
 
 
 If one observer moves at a constant rate to another observer, then special relativity comes into play.

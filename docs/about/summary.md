@@ -25,6 +25,6 @@ space-times-times.
 The above and below observers agreed on the space-times-time, but differed on 
 the interval.
 
-The precise amounts of the differences - and they are exceedingly precise -
-depends on more math than shown in the graphics.  One would need to read the
-essay for that.
+The precise amounts of the differences - and they are exceedingly precise and
+tiny - depends on more math than shown in the graphics.  One would need to read
+the essay for that.

@@ -15,6 +15,9 @@
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
         <link rel="stylesheet" href="../../css/highlight.css">
         <link href="../../css/base.css" rel="stylesheet">
+        <link href="../../fancybox/source/jquery.fancybox.css" rel="stylesheet">
+        <link href="../../fancybox/source/helpers/jquery.fancybox-buttons.css" rel="stylesheet">
+        <link href="../../fancybox/source/helpers/jquery.fancybox-thumbs.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -153,7 +156,10 @@
 
 <h1 id="sr-qg-special-relativity-and-quaternion-gravity">SR + QG - <em>S</em>pecial <em>R</em>elativity and <em>Q</em>uaternion <em>G</em>ravity</h1>
 <p>This graphic says most of it...</p>
-<p><img alt="Special relativity and quaternion gravity" src="../../img/sr_and_qg.all.600.png" /></p>
+<p><a id="single_1" href="../../img/all_900.gif"
+title="Four ways to see two events">
+    <img class='visible-xs' src="../../img/all_400.gif" alt="" />
+    <img class='hidden-xs' src="../../img/all_600.gif" alt="" /></a>  </p>
 <p><a href="../../img/sr_and_qg.all.pdf">printable pdf</a> or <a href="../../img/sr_and_qg.all.svg">editable svg</a></p>
 <p>My entry to the <a href="http://www.gravityresearchfoundation.org/index.html"><em>2015 Awards for Essays on 
 Gravitation</em></a> is 
@@ -166,5 +172,73 @@ Gravitation</em></a> is
         <script src="../../js/bootstrap-3.0.3.min.js"></script>
         <script src="../../js/highlight.pack.js"></script>
         <script src="../../js/base.js"></script>
+        <script src="../../fancybox/source/jquery.fancybox.js"></script>
+        <script src="../../fancybox/source/jquery.fancybox.pack.js"></script>
+        <script src="../../fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+        <script src="../../fancybox/source/helpers/jquery.fancybox-media.js"></script>
+        <script src="../../fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".fancybox").fancybox();
+                    });
+        </script>
+
+        <script type="text/javascript">
+
+            $(document).ready(function() {
+                $("#single_1").fancybox({
+                    helpers: {
+                        title : {
+                            type : 'float'
+                        }
+                    }
+                });
+
+                $("#single_2").fancybox({
+                    openEffect  : 'elastic',
+                    closeEffect : 'elastic',
+
+                    helpers : {
+                        title : {
+                            type : 'inside'
+                        }
+                    }
+                });
+
+                $("#single_3").fancybox({
+                    openEffect : 'none',
+                    closeEffect : 'none',
+                    helpers : {
+                        title : {
+                            type : 'outside'
+                        }
+                    }
+                });
+
+                $("#single_4").fancybox({
+                    helpers : {
+                        title : {
+                            type : 'over'
+                        }
+                    }
+                });
+            });
+
+        </script>
+
+        <script>
+            $(document).ready(function() {
+                $(".fancybox-button").fancybox({
+                    prevEffect      : 'none',
+                    nextEffect      : 'none',
+                    closeBtn        : false,
+                    helpers     : {
+                        title   : { type : 'inside' },
+                        buttons : {}
+                    }
+                });
+            });
+        </script>
     </body>
 </html>

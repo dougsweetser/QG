@@ -15,6 +15,9 @@
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
         <link rel="stylesheet" href="../../css/highlight.css">
         <link href="../../css/base.css" rel="stylesheet">
+        <link href="../../fancybox/source/jquery.fancybox.css" rel="stylesheet">
+        <link href="../../fancybox/source/helpers/jquery.fancybox-buttons.css" rel="stylesheet">
+        <link href="../../fancybox/source/helpers/jquery.fancybox-thumbs.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -152,9 +155,17 @@
             <div class="col-md-12" role="main">
 
 <h1 id="quaternion-gravity">Quaternion gravity</h1>
-<p>Looking down or up changes measurements of firecrackers.</p>
-<p><img alt="quaternion gravity" src="../../img/sr_and_qg.qg.600.png" /></p>
-<p>If one observer is at a different height in a gravity field to another observer, then quaternion gravity comes into play.</p>
+<p>Looking down or looking from below changes time and space measurements in opposite ways.</p>
+<p><a id="single_1" href="../../img/QG_900.gif"
+title="Four ways to see two events">
+    <img class='visible-xs' src="../../img/QG_400.gif" alt="" />
+    <img class='hidden-xs' src="../../img/QG_600.gif" alt="" /></a>  </p>
+<p>If one kid is at a different height in a gravity field to another, then
+time measurements get smaller while spatial ones get bigger.  That is standard 
+physics (general relativity, GR).</p>
+<p>The Quaternion Gravity (QG) proposal says the space-times-time values are 
+precisely the same.  With general relativity, this space-times-time is not 
+mentioned, but it is almost - but not quite - the same.</p>
 <p>Note: the numbers are <strong>far too big</strong> (off by 16 orders of magnitude, I just
 didn't want to write <em>lots</em> of zeros).</p></div>
         </div>
@@ -165,5 +176,73 @@ didn't want to write <em>lots</em> of zeros).</p></div>
         <script src="../../js/bootstrap-3.0.3.min.js"></script>
         <script src="../../js/highlight.pack.js"></script>
         <script src="../../js/base.js"></script>
+        <script src="../../fancybox/source/jquery.fancybox.js"></script>
+        <script src="../../fancybox/source/jquery.fancybox.pack.js"></script>
+        <script src="../../fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+        <script src="../../fancybox/source/helpers/jquery.fancybox-media.js"></script>
+        <script src="../../fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".fancybox").fancybox();
+                    });
+        </script>
+
+        <script type="text/javascript">
+
+            $(document).ready(function() {
+                $("#single_1").fancybox({
+                    helpers: {
+                        title : {
+                            type : 'float'
+                        }
+                    }
+                });
+
+                $("#single_2").fancybox({
+                    openEffect  : 'elastic',
+                    closeEffect : 'elastic',
+
+                    helpers : {
+                        title : {
+                            type : 'inside'
+                        }
+                    }
+                });
+
+                $("#single_3").fancybox({
+                    openEffect : 'none',
+                    closeEffect : 'none',
+                    helpers : {
+                        title : {
+                            type : 'outside'
+                        }
+                    }
+                });
+
+                $("#single_4").fancybox({
+                    helpers : {
+                        title : {
+                            type : 'over'
+                        }
+                    }
+                });
+            });
+
+        </script>
+
+        <script>
+            $(document).ready(function() {
+                $(".fancybox-button").fancybox({
+                    prevEffect      : 'none',
+                    nextEffect      : 'none',
+                    closeBtn        : false,
+                    helpers     : {
+                        title   : { type : 'inside' },
+                        buttons : {}
+                    }
+                });
+            });
+        </script>
     </body>
 </html>

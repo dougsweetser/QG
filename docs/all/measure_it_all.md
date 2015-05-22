@@ -2,7 +2,10 @@
 
 This graphic says most of it...
 
-![Special relativity and quaternion gravity](../img/sr_and_qg.all.600.png)
+<a id="single_1" href="../../img/all_900.gif"
+title="Four ways to see two events">
+    <img class='visible-xs' src="../../img/all_400.gif" alt="" />
+    <img class='hidden-xs' src="../../img/all_600.gif" alt="" /></a>  
 
 [printable pdf](../img/sr_and_qg.all.pdf) or [editable svg](../img/sr_and_qg.all.svg)
 

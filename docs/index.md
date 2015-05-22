@@ -1,8 +1,11 @@
 # Measure the difference between space-time events
 
-Firecrackers Explode!
+Two stars go supernova while four kids watch.
 
-![](img/sr_and_qg.measure.600.png)
+<a id="single_1" href="img/measure_900.gif"
+title="Four ways to see two events">
+    <img class='visible-xs' src="img/measure_400.gif" alt="" />
+    <img class='hidden-xs' src="img/measure_600.gif" alt="" /></a>  
 
 There is a difference in time (dt).
 
@@ -10,6 +13,12 @@ There is a difference in space (dR).
 
 Together they make a difference in space-time.
 
-This site shows how these two simple measurements can be used together to
-understand both Special Relativity (the physics of moving) and a new proposal
-for gravity, Quaternion Gravity.
+Each kid measures a different values for time and space.
+
+Yet the walkers agree on something they can calculate called the interval.
+This is the standard physics of Special Relativity, the physics of moving.
+
+This site promotes a new proposal for gravity called Quaternion Gravity where
+the kids above or below agree on a different value they calculate, 
+space-times-time.  In this standard approach to gravity known as General 
+Relativity, this is almost, but not quite true.

@@ -48,8 +48,8 @@ I use a math where squaring events in space-time is OK.**
 **The dt^2^ - dR^2^ is called the interval**
 
 **I like to make things concrete, so made up numbers
-    5 for dt
-    3 for dR
+    5 for time dt
+    3 for space dR
 The interval is 5^2^ 25 - 3^2^ 9 16**
 
 **The other term, 2 dt dR, doesn't even have a name in standard physics

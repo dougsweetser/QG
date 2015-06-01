@@ -15,7 +15,7 @@ That is the starting point.**
 
 **I put on the blue cap for special relativity.
 Everything blue is about special relativity.
-It says "An invariant interval is special relativity."
+It says "An invariant interval is special relativity."**
 
 **Focus on the Walk toward girl.
 She gets the news sooner by walking toward the action.

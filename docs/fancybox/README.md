@@ -7,7 +7,7 @@ and paste it into any page, modifying as needed.  One alteration is required
 for images: the src has to have an additional "../", so it will be something
 like:
 
-    img src=../../img/whatever.gif
+    img src=../../images/whatever.gif
 
 ## License
 

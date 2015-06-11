@@ -9,3 +9,5 @@ ones with the more youthful color palette are hers).
 
 The web site was generated using mkdocs, a great program for sites with static
 content.
+
+The page-cast were created with Camtasia2 for Mac.

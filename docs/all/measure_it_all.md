@@ -7,6 +7,12 @@ title="Four ways to see two events">
     <img class='visible-xs' src="../../img/all_400.gif" alt="" />
     <img class='hidden-xs' src="../../img/all_600.gif" alt="" /></a>  
 
+## Page-cast
+
+A brief explantion of this page.
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/GU327hCMyxo" frameborder="0" allowfullscreen></iframe>
+
 [printable pdf](../img/sr_and_qg.all.pdf) or [editable svg](../img/sr_and_qg.all.svg)
 
 My entry to the [_2015 Awards for Essays on 

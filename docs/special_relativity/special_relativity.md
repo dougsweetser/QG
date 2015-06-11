@@ -16,7 +16,14 @@ And there is that interval that is *exactly* the same size.
 Note: the numbers are **far too big** (off by 16 orders of magnitude, I just
 didn't want to write _lots_ of zeros).
 
-## Technical notes for nerds only.
+## Page-cast
+
+A brief explantion of this page.
+
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/qg9DNIcSjQU" frameborder="0" allowfullscreen></iframe>
+
+## For nerds only.
 
 Take measurements made by two observers written as quaternions and square them.  
 If the first terms are the same, then the two observers are in reference frames 

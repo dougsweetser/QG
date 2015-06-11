@@ -23,7 +23,13 @@ the kids above or below agree on a different value they calculate,
 space-times-time.  In this standard approach to gravity known as General 
 Relativity, this is almost, but not quite true.
 
-## Technical notes for nerds only
+## Page-cast
+
+A brief explantion of this page.
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/hQ4giMzbyA8" frameborder="0" allowfullscreen></iframe>
+
+## For nerds only
 
 Special relativity is special because it is restricted to inertial observers.  
 To cover more cases requires the machinery of differential geometry.  A tensor 

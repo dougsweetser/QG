@@ -29,7 +29,7 @@ Her ruler expands up in the clouds.
 Her space dR measurement with the bigger ruler is smaller
 
 These changes are very precise.
-In the standard approach to gravity called Einstein’s General relativity,
+In the standard approach to gravity called Einstein's General relativity,
 the bigger time dt
 almost cancels the smaller space dR.
 

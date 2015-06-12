@@ -1,7 +1,3 @@
-# Measurement 101 page-casts
-
-These are scripts for the page-cast
-
 ## Landing page
 
 Hello, I'm Doug

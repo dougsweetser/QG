@@ -6,6 +6,11 @@ theme_dir: spacelab-mod
 
 dev_addr: 127.0.0.1:8001
 
+markdown_extensions:
+    include:
+    subscript:
+    superscript:
+
 pages:
 - [index.md, Measure Space-time]
 - [special_relativity/special_relativity.md, Measure while walking]
@@ -14,6 +19,7 @@ pages:
 - [essay/space-times-time-invariance.md, Essay]
 - [about/summary.md, About, Summary]
 - [about/technical_summary.md, About, Technical summary]
+- [page_casts/page_casts.md, About, Page-casts]
 - [about/how_done.md, About, How this was done]
 - [about/professional.md, About, Professional sketch]
 - [about/personal.md, About, Personal sketch]

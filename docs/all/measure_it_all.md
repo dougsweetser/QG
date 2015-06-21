@@ -71,4 +71,4 @@ moment, but no a dipole one.
 My entry to the [_2015 Awards for Essays on 
 Gravitation_](http://www.gravityresearchfoundation.org/index.html) is a more formal
 presentation of this research effort, [available as a
-pdf](../papers/s-t-t/space-times-time-invariance.pdf).
+pdf](../papers/s-t-t/space-times-time_invariance.pdf).

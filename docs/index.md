@@ -29,7 +29,7 @@ A brief explantion of this page.
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/hQ4giMzbyA8" frameborder="0" allowfullscreen></iframe>
 
-## For nerds only
+## For nerds
 
 Special relativity is special because it is restricted to inertial observers. 
 To cover more cases requires the machinery of differential geometry. A tensor 

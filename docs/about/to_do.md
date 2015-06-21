@@ -5,7 +5,6 @@
     * Video
 1. About: For nerds collection
 1. Page-cast all 4 link
-1. Update quaternions.com/gravity section
 
 ## Done
 
@@ -22,5 +21,6 @@
     * Walkers
     * Quaternion Gravity
     * All
+1. Update quaternions.com/gravity section
 
 ## Skipping

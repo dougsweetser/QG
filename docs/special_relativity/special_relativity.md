@@ -23,7 +23,7 @@ A brief explantion of this page.
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/qg9DNIcSjQU" frameborder="0" allowfullscreen></iframe>
 
-## For nerds only.
+## For nerds
 
 Take measurements made by two observers written as quaternions and square them.  
 If the first terms are the same, then the two observers are in reference frames 

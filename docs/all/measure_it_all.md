@@ -55,7 +55,7 @@ inverse that depens on the M/R ratio is an obvious thing to propose.
 ![e to the -z dt, e to the z dR sub i over c squared equals e to the -2 z dt
 squared - e to the 2 z dR sub i squared, 2 dt dR sub i over c equals e to the -
 2 G M c squared R dt squared - e to the 2 G M over c squared R dR sub i
-squared, 2 dt dR sub i if z = G M over c squared R](../Images/exp_GMc2R.png)
+squared, 2 dt dR sub i if z = G M over c squared R](../images/exp_GMc2R.png)
 
 The interval looks just like the Rosen bi-metric proposal, even though
 quaternion gravity uses no metrics. The Rosen metric is known to be consistent

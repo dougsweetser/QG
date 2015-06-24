@@ -1,6 +1,6 @@
 # Quaternion space-times-time invariance as gravity
 
-[The linked essay](../essay/space-times-time-invariance.pdf) was submitted to the 
+[The linked essay](../essay/space-times-time_invariance.pdf) was submitted to the 
 _2015 Essays on Gravitation_ contest run by the [Gravity Research 
 Foundation](http://www.gravityresearchfoundation.org/index.html).
 

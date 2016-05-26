@@ -9,7 +9,7 @@ title="Four ways to see two events">
 
 As long as the kids move at a constant rate, special relativity comes into play.
 
-Relativity is not an arbitrary change, but increadibly precise change.
+Relativity is not an arbitrary change, but incredibly precise change.
 
 And there is that interval that is *exactly* the same size.
 

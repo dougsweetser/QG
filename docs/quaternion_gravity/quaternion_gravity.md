@@ -25,14 +25,13 @@ A brief explantion of this page.
 
 ## For nerds
 
-Special relativity could have been called "special invariance" because it is
-the invariant interval that all inertial observers agree upon. Invariance
-principles are deep insights into how Nature works. They are truths that do
-not change.
+Special relativity could have been called "special equivalence" because it is
+the interval that all inertial observers agree upon forming an equivalence
+class. An equivalence class is a deep insights into how Nature works.
 
-The quaternion gravity proposal postulates a new invariance principle: that
+The quaternion gravity proposal postulates a new equivalence class: that
 different observers making measurements in different locations in a
-gravitational field will agree on an invariant value for space-times-time.
+gravitational field will agree on the value for space-times-time.
 Some care is required to say this in a coordinate-independent way. All
 observers are free to pick their coordinate system. There then exists a
 norm-preserving rotation in space such that the space-times-time measurement of
@@ -40,10 +39,16 @@ one observer is exactly equal to another.
 
 But how precisely does the interval change? For a spherically symmetric,
 non-rotating, uncharged source, only one dimensionless ratio comes into play:
-GM/c^2^R. Orbital systems are harmonic systems, suggesting that one use
-exponential of the dimensionless ratio. The requirement that the
-space-times-time term is invariant means the time term is the inverse of the
-exponential experienced by the space term, like so:
+GM/c^2^R. The requirement that the
+space-times-time term is equivalent means the the changes in the time term must
+be the mathematical inverse of the changes in space. To be consistent with
+Newton's law of gravity, the simplest functions would be (1 - 2 GM/c^2 R) for
+time, and 1/(1 - 2 GM/c^2 R) for space. To be consistent with weak field test
+of gravity, one more term must be added to both: (1 - 2 GM/c^2 R + 2 (GM/c^2 R)^2)
+for time and its inverse for space. At this point, quaternion gravity disagrees
+with general relativity because such terms do not solve the Einstein field
+equations. Orbital systems are harmonic systems, suggesting that one use
+exponential of the dimensionless ratio.
 
 ![e to the -z dt, e to the z dR sub i over c squared equals e to the -2 z dt
 squared - e to the 2 z dR sub i squared, 2 dt dR sub i over c equals e to the -

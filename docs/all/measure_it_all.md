@@ -10,14 +10,16 @@ title="Four ways to see two events">
 Start with the reference square which has an interval of 16 and a space-times
 time of 30.
 
-Compare the reference square with the walkers. They all have the same interval
-of 16 because that is what is invariant for inertial observers, folks moving at
-a constant speed compared to the reference.
+Compare the reference square with the walkers. They all measure the same value
+for the interval of 16 because they are in the equivalence class for inertial
+observers, folks moving at a constant speed compared to the reference.
 
 Compare the reference square with the girl above and boy below. Because they
 are in a gravitational field, they are not inertial observers. The quaternion
 gravity proposal says the space-times-time value are exactly the same at 30.
-The interval will be of different sizes.
+The space-times-times being equal defines a different equivalence class. One
+consequences of having the space-times-time equivalent is that the intervals
+must be different.
 
 If one compares a walker to one of the kids above or below, there is no overlap
 between the squares they calculate. One must compare the squares with the
@@ -40,9 +42,10 @@ the gravitational field as the reference square, they will have the same
 interval.
 
 The kids above and below are not moving compared to the reference square. By
-the quaternion gravity proposal, the space-times-time is an invariant. All
-agree on the value of 30. What then has to be different is the interval. But
-how different, and how does that depend on the gravitational source mass?
+the quaternion gravity proposal, the space-times-time being equal defines an
+equivalence class. All agree on the value of 30. What then has to be different
+is the interval. But how different, and how does that depend on the
+gravitational source mass?
 
 Fortunately, there is no choice in answering the question if one is to be
 consistent with current experimental tests of gravity. For a spherically

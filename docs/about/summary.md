@@ -5,12 +5,16 @@ spacetime.
 
 Just square it.
 
-The first term is called the interval. If that does not change - is an
-invariant - then one is dealing with __S__pecial __R__elativity (SR).
+The first term is called the interval. If two observers agree that it is the
+same value - the two observers are in an equivalence class together because
+they agree about the interval - then one is dealing with __S__pecial 
+__R__elativity (SR).
 
 The next three terms do not have a name, so I made one up: __space-times-time__.
-If those three numbers do not change - is an invariant - then that is my
-proposal for a new approach to gravity, __Q__uaternion __G__ravity (QG).
+If two observers agree about those three numbers do not change - the two 
+observers are in a different equivalenc class which is about space-times-time - 
+then that is my proposal for a new approach to gravity, __Q__uaternion 
+__G__ravity (QG).
 
 Four observers of the events were looked at.
 

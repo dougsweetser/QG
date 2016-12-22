@@ -17,7 +17,7 @@ That is the starting point.
 Hello, I am quaternion gravity Doug in yellow
 Everything kelly green on this page is about quaternion gravity.
 A quaternion squared is the interval and space-times-time
-An invariant space-times-time is quaternion gravity.
+An equivalent space-times-time is the equivalence class of quaternion gravity.
 
 What does that mean?
 
@@ -35,7 +35,7 @@ almost cancels the smaller space dR.
 
 In my quaternion gravity proposal,
 the bigger time dt exactly cancels the smaller space dR.
-The result is an invariant space-times-time = 30.
+The result is an equivalent space-times-time = 30.
 
 The interval is made up of one positive number that gets bigger,
 minus a number that gets number. 
@@ -47,7 +47,7 @@ His clock ticks slower.
 His time dt with the slow clock is smaller than the reference observer.
 His meter stick is smaller.
 His space dR with the smaller stick is larger than the reference observer.
-The result is the invariant space-times-time = 30.
+The result is the equivalent space-times-time = 30.
 
 The interval of a smaller positive number minus a larger negative number
 means the interval is smaller than the reference interval.

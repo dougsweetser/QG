@@ -12,9 +12,9 @@ It is a 3 hat affair.
 A quaternion squared equals
 the interval and space-times-time.
 
-An invariant interval is special relativity.
+An equivalent interval is the equivalence class of special relativity.
 It is the stuff in blue.
-An invariant space-times is quaternion gravity.
+An equivalent space-times-time is the equivalence class of quaternion gravity.
 It is the stuff in Kelly green.
 
 I am the reference observer,

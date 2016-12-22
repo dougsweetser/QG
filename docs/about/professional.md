@@ -120,7 +120,7 @@ for quaternion gravity
 * [VisualPhysics.org](http://visualphysics.org) has a collection of analytic 
   animations generated with a user-hostile set of tools I wrote.
 
-#### Quaternion space-times-time invariance as gravity
+#### Quaternion space-times-time equivalence classes as gravity
 
 I went back to the equation that sparked my initial interest in quaternions:
 
@@ -130,10 +130,10 @@ The first term is called the interval. But what are the next three called?
 Physics doesn't have a name. That is a problem because the first term is one of 
 the most important in physics because it is at the heart of special relativity.  
 I came up with a reasonable name for the three amigos: space-times-time. I 
-asked a simple question: what if space-times-time was invariant, then what sort 
-of physics results? That could be gravity, but a very different theory because 
-it is not a field theory. There would be no graviton, nor any quantum gravity 
-theory. The idea had enough promise that I submitted an 1500 word paper to the 
-2015 Gravitation Research Foundation Essay on Gravity.  We will see if they 
-like it.
+asked a simple question: what if space-times-time for two observers was
+equivalent, then what sort of physics results? That could be gravity, but a
+very different theory because it is not a field theory. There would be no
+graviton, nor any quantum gravity theory. The idea had enough promise that I
+submitted an 1500 word paper to the 2015 Gravitation Research Foundation Essay 
+on Gravity.  We will see if they like it (no, they did not).
 
